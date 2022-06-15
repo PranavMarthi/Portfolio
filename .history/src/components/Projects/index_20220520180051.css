@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
+#project-pane1 {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: 25%;
+    height:32.5%;
+    background-color: white;
+    position: absolute;
+    top:30%;
+    left:10%;
+    border-radius: 10%;
+    transition: 0.5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+#project-pane2 {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: 25%;
+    height:32.5%;
+    background-color: white;
+    position: absolute;
+    top:30%;
+    left:40%;
+    border-radius: 10%;
+    transition: 0.5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+#project-pane3 {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: 25%;
+    height:fit-content;
+    background-color: white;
+    position: absolute;
+    top:30%;
+    left:70%;
+    border-radius: 10%;
+    transition: 0.5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+
+#project-pane4 {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: 25%;
+    height:32.5%;
+    background-color: white;
+    position: absolute;
+    top:55%;
+    left:25%;
+    border-radius: 10%;
+    transition: 0.5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#project-pane5 {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: 25%;
+    height:32.5%;
+    background-color: white;
+    position: absolute;
+    top:55%;
+    left:55%;
+    border-radius: 10%;
+    transition: 0.5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#project-pane1:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+#project-pane2:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+#project-pane3:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+#project-pane4:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+#project-pane5:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+.project-text {
+    position: relative;
+    top: 10%;
+    font-family: 'Koulen', cursive;
+    font-size: x-large;
+    color: black;
+    left:27.5%;
+}
+
+.description {
+    position: relative;
+    top:30%;
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    width:80%;
+    left:10%;
+    right:10%;
+    word-wrap: break-word;
+}

@@ -1,0 +1,36 @@
+#project-pane1 {
+    width: 25%;
+    height:32.5%;
+    background-color: white;
+    position: absolute;
+    top:15%;
+    left:10%;
+    border-radius: 10%;
+}
+
+
+#project-pane2 {
+    width: 25%;
+    height:32.5%;
+    background-color: white;
+    position: absolute;
+    top:15%;
+    left:40%;
+    border-radius: 10%;
+}
+
+
+#project-pane3 {
+    width: 25%;
+    height:32.5%;
+    background-color: white;
+    position: absolute;
+    top:15%;
+    left:70%;
+    border-radius: 10%;
+}
+
+#project-pane1:hover {
+    width:27.5%;
+    height: 35%;
+}

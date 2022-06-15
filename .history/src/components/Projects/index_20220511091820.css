@@ -1,0 +1,28 @@
+#project-pane1 {
+    width: 22.5%;
+    height:27.5%;
+    background-color: white;
+    position: absolute;
+    top:10%;
+    left:15%;
+}
+
+
+#project-pane2 {
+    width: 22.5%;
+    height:27.5%;
+    background-color: white;
+    position: absolute;
+    top:15%;
+    left:45%;
+}
+
+
+#project-pane3 {
+    width: 22.5%;
+    height:27.5%;
+    background-color: white;
+    position: absolute;
+    top:15%;
+    left:75%;
+}

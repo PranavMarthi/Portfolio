@@ -1,0 +1,21 @@
+#table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse:separate;
+    width: 80%;
+    position: relative;
+    right:25%;
+    left:11em;
+    top:10em;
+    bottom: 10em;
+    text-align: center;
+}
+
+.project-pane {
+    width: 25%;
+    height:30%;
+    background-color: white;
+    position: absolute;
+    top:20%;
+    left:20%;
+}
+

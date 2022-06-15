@@ -1,0 +1,14 @@
+.solid-logo {
+    position: absolute;
+    left: 60%;
+    top:10%;
+    transform: rotate(-7.5deg);
+}
+
+.solid-logo:hover {
+    -webkit-animation-play-state: running;
+    -o-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running;
+    transform: rotate(7.5deg);
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    position: absolute;
+    left:7%;
+    top:40%;
+    width: 90%;
+    color:white;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}

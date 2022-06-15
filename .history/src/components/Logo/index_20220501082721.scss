@@ -1,0 +1,12 @@
+.solid-logo {
+    position: absolute;
+    left: 60%;
+    top:10%;
+    transform: rotate(-7.5deg);
+}
+
+.solid-logo:hover {
+    transition: transform 2s ease-in-out;
+    transition: transform 2s ease-in-out;
+    transform: rotate(20deg);
+}

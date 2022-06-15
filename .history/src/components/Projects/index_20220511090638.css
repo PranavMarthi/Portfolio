@@ -1,0 +1,9 @@
+.project-pane {
+    width: 25%;
+    height:30%;
+    background-color: white;
+    position: absolute;
+    top:20%;
+    left:20%;
+}
+
